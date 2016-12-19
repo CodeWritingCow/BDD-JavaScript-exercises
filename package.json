@@ -1,0 +1,32 @@
+{
+  "name": "bdd-javascript-exercises",
+  "version": "1.0.0",
+  "description": "Exercises for Behavior-Driven Development (BDD) in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -u bdd -R spec -t 500 --recursive",
+    "watch": "mocha -u bdd -R spec -t 500 --recursive --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeWritingCow/BDD-JavaScript-exercises.git"
+  },
+  "keywords": [
+    "BDD",
+    "JavaScript",
+    "Mocha",
+    "Chai",
+    "Node.js",
+    "testing"
+  ],
+  "author": "Gary Pang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeWritingCow/BDD-JavaScript-exercises/issues"
+  },
+  "homepage": "https://github.com/CodeWritingCow/BDD-JavaScript-exercises#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
